@@ -5,6 +5,6 @@ def calculate_expression(x):
     denominator = abs(math.sin(x)) + (math.cos(x) + math.cos(2*x))**(1/4)
     return numerator / denominator if denominator != 0 else 'Ділення на нуль'
 
-x_value = 0.1  #Значення х
+x_value = 0.2  #Значення х
 p = calculate_expression(x_value)
 print(f'p = {p}')
